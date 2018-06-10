@@ -19,8 +19,4 @@ export class DataService {
   getPosts() {
     return this.http.get('https://jsonplaceholder.typicode.com/posts');
   }
-
-  getPosts1111() {
-    return this.http.get('https://jsonplaceholder.typicode.com/posts');
-  }
 }
